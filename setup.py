@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="calculator_91",
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="Eduardo",
+    author_email="eduardo@gmail.com",
+    description="Calcula simples numeros",
     long_description=page_description,
-    long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    long_description_content_type="calculator",
+    url="https://github.com/EduardoHonda/package-template"
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',
